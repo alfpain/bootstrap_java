@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<title>Bootstrap</title>
+		<Link rel = "stylesheet" href = "bootstrap/css/bootstrap.css" type = "text/css"/>
+		<Link rel = "stylesheet" href = "bootstrap/css/bootstrap.css.map" type = "text/css"/>
+		<Link rel = "stylesheet" href = "bootstrap/css/bootstrap.min.css" type = "text/css"/>
+		<Link rel = "stylesheet" href = "bootstrap/css/bootstrap-theme.css" type = "text/css"/>
+		<Link rel = "stylesheet" href = "bootstrap/css/bootstrap-theme.css.map" type = "text/css"/>
+		<Link rel = "stylesheet" href = "bootstrap/css/bootstrap-theme.min.css" type = "text/css"/>
+		<link rel='stylesheet' href='css/style.css' type='text/css'>
+	</head>
+
+	<body>
+		<nav class = "navbar navbar-inverse navbar-fixed-top">
+			<div class= "container">
+				<div class = "navbar-header">
+					<a href="#" class = "navbar-brand">Inicio</a>
+				</div>
+				<div class = "colapse navbar-colapse">
+					<ul class ="nav navbar-nav">
+						<li>
+							<a href="enlances.html">Enlances</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="jumbotron top">
+
+			<div class="container">
+
+				<h1>Aprendiendo bootstrap</h1>
+			</div>
+		</div>
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-heading">Filtros</div>
+						<div class = "panel-body">
+							<input type="checkbox" name="filtro" value="0" class="check" id = "fil"> Music<br>
+						<input type="checkbox" name="filtro" value="2" class="check"> Books<br>
+
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class = "panel-heading"> Music filtros</div>
+						<div class = "conditionally-loaded">
+							<div class = "panel-body">
+							<input type="checkbox" name="filtro" value="1" class="check"> People<br>
+							<input type="checkbox" name="filtro" value="3" class="check"> Album<br>
+							<input type="checkbox" name="filtro" value="4" class="check"> Genero<br>
+	
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class = "col-md-8">
+
+					<div class="panel panel-default">
+						<div class="panel-heading">Busqueda</div>
+						<table class="table">
+							<thead>
+								<form class = "search">
+									<input type = "text" class = "texto">
+									<input type = "submit" value = "buscar">
+								</form>
+								<tr>
+									<th>#</th>
+									<th>Name</th>
+								</tr>
+							</thead>
+							<tbody class = "informacion">
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<Script src = "bootstrap/js/bootstrap.js"> </script>
+		<Script src = "bootstrap/js/bootstrap.min.js"> </script>
+		<Script src = "bootstrap/js/npm.js"> </script>
+		<script type='text/javascript' src='js/js.js'></script>
+	</body>
+
+</html>
